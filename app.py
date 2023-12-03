@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # loading the saved models
-loan_models = pickle.load(open('loan_model.sav', 'rb'))
+loan_models = pickle.load(open('/mount/src/loan-status-check/loan_model.sav', 'rb'))
 
 #page title
 st.title('Loan Status Prediction Using ML')
